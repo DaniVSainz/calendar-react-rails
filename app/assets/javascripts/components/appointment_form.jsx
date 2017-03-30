@@ -3,11 +3,8 @@ var AppointmentForm = React.createClass({
     var name = e.target.name;
     obj = {};
     obj[name] = e.target.value;
-    console.log(obj);
-    console.log(this.props.onUserInput);
     this.props.onUserInput(obj);
   },
-
 
   handleSubmit: function(e) {
     e.preventDefault();
