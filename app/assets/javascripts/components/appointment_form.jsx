@@ -5,8 +5,8 @@ var AppointmentForm = React.createClass({
         <h2>Make a new Appointment </h2>
         <form>
           <input name='title' placeholder='Appointment Title' />
-          <input name='appt_time' placehodler='Date & Time' />
-          <input type='submite' value='Make Appointment' />
+          <input name='appt_time' placeholder='Date & Time' />
+          <input type='submit' value='Make Appointment' />
         </form>
       </div>
     )
