@@ -1,5 +1,5 @@
 
-Class AppointmentsList extends React.Component {
+class AppointmentsList extends React.Component {
   render () {
     return (
       <div>
