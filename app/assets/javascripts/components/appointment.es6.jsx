@@ -1,5 +1,5 @@
-class Appointment extends React.component {
-  render {
+class Appointment extends React.Component {
+  render () {
     return(
       <div>
         <h3>{this.props.appointment.title}</h3>
