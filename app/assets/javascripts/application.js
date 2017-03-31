@@ -14,5 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require moment
-//= require react-datetime.min.js
 //= require_tree .
+
+// require react-datetime.min.js
