@@ -1,7 +1,9 @@
-class Label extends React.Component {
+import React from "react"
+
+export default class Label extends React.Component {
   render () {
     return (
-      <div>
+      <div className="vspace-10">
         <div>{this.props.label}</div>
       </div>
     );

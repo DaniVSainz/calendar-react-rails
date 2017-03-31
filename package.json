@@ -10,5 +10,10 @@
     "postinstall": "cd client && yarn install",
     "rails-server": "echo 'visit http://localhost:3000/hello_world' && foreman start -f Procfile.dev",
     "test": "rspec"
+  },
+  "dependencies": {
+  "immutability-helper": "^2.1.2",
+  "moment": "^2.18.1",
+  "react-datetime": "^2.8.8"
   }
 }
