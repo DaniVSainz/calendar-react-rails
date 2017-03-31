@@ -1,10 +1,8 @@
-class Appointment extends React.Component {
-  render () {
+const Appointment = ({appointment}) => {
     return(
       <div>
-        <h3>{this.props.appointment.title}</h3>
-        <p>{moment(this.props.appointment.appt_time).format('MMMM Do YYYY, h:mm:ss a')}</p>
+        <h3>{appointment.title}</h3>
+        <p>{moment(appointment.appt_time).format('MMMM Do YYYY, h:mm:ss a')}</p>
       </div>
     )
-  }
 }
