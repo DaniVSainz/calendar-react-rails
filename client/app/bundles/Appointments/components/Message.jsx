@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Message = (props,_railsContext) => (
+const Message = () => (
   <div>
-    Text: Blah Blah
+    Hello!
   </div>
 );
 
