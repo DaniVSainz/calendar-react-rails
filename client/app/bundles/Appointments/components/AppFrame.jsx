@@ -13,3 +13,4 @@ const AppFrame = () => (
     </div>
   </div>
 );
+export default AppFrame;
