@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AppFrame = () => (
+const App = () => (
   <div>
     <h1>Simple SPA</h1>
     <ul className="header">
@@ -13,4 +13,4 @@ const AppFrame = () => (
     </div>
   </div>
 );
-export default AppFrame;
+export default App;

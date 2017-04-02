@@ -1,8 +1,9 @@
 import React from 'react';
+import  App  from "./App"
 
 const Message = () => (
   <div>
-    Hello!
+    <App />
   </div>
 );
 
